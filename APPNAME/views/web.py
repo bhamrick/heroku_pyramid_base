@@ -3,7 +3,7 @@ from APPNAME.lib.session import web, ajax
 class WebView:
     @web(template="web/home.tmpl")
     def home(request):
-        return {'project' : 'WebSplit'}
+        return {'project' : 'APPNAME'}
 
     @ajax()
     def ajax_test(request):
